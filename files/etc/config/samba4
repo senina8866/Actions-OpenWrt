@@ -1,0 +1,24 @@
+
+
+config sambashare
+	option auto '1'
+	option name 'sda3'
+	option path '/mnt/sda3'
+	option read_only 'no'
+	option guest_ok 'yes'
+	option create_mask '0666'
+	option dir_mask '0777'
+	option device 'sda3'
+	option inherit_owner 'yes'
+
+
+config sambashare
+	option auto '1'
+	option name 'sda1'
+	option path '/mnt/sda1'
+	option read_only 'no'
+	option guest_ok 'yes'
+	option create_mask '0666'
+	option dir_mask '0777'
+	option device 'sda1'
+	option inherit_owner 'yes'

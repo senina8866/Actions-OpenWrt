@@ -1,0 +1,32 @@
+
+config init
+	option stdout '1'
+	option stderr '1'
+	option respawn '1'
+	option user 'root'
+	option group 'root'
+
+config conf 'common'
+	option tls_enable 'false'
+	option server_addr 'linzifu.xyz'
+	option server_port '5443'
+	option token 'UJOwn8RwuZponMLu1'
+
+config conf 'ssh'
+	option type 'tcp'
+	option local_ip '127.0.0.1'
+	option local_port '22'
+	option use_encryption 'false'
+	option use_compression 'false'
+	option remote_port '7001'
+	option name '7001.ssh'
+
+config conf
+	option name '7001.http'
+	option type 'http'
+	option use_encryption 'false'
+	option use_compression 'false'
+	option local_ip '127.0.0.1'
+	option local_port '80'
+	option subdomain '7001'
+
