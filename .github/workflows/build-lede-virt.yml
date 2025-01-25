@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder lede x86 bak
+name: OpenWrt Builder lede virt
 
 on:
   repository_dispatch:
